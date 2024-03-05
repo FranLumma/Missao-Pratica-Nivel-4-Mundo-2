@@ -24,7 +24,7 @@ export class LivroDadosComponent implements OnInit {
     servLivros: ControleLivrosService,
     servEditora: ControleEditoraService
   ) {
-    this.livro = new Livro(0, 20, '', '', []);
+    this.livro = new Livro(0, 0, '', '', []);
     this.router = router;
     this.servLivros = servLivros;
     this.servEditora = servEditora;
